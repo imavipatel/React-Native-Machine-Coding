@@ -3,6 +3,7 @@ import {
   PinCodeApiIntegration,
   RestaurantsListFilterApiIntegration,
   MachineCodingDashboard,
+  TodoApplicationAddDeleteEdit,
 } from '@modules/machine-coding/screens';
 import { Stack } from '@core-navigations/root.navigation';
 import { NativeStackNavigationOptions } from '@react-navigation/native-stack';
@@ -29,6 +30,11 @@ export function MachineCodingStack() {
       name: 'restaurants-list-filter-api-integration',
       component: RestaurantsListFilterApiIntegration,
       screenId: 'REST-RENT-LIST-FILTER',
+    },
+    {
+      name: 'todo-application-add-edit-delete',
+      component: TodoApplicationAddDeleteEdit,
+      screenId: 'TODO-APCN-AD-DLT-EDT',
     },
   ];
   return (

@@ -11,12 +11,13 @@ interface DashboardHomeProps {
 export const DashboardHomeScreen = (props: DashboardHomeProps) => {
   return (
     <SafeAreaView style={Styles.container}>
+      <Text>Dashboard</Text>
       <Text
         onPress={() => {
           props.navigation.navigate('machineCodingStack');
         }}
       >
-        Main Dashboard Home
+        Machine Coding Dashboard Home
       </Text>
     </SafeAreaView>
   );

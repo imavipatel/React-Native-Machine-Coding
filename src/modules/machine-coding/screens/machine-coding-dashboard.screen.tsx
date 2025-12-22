@@ -26,7 +26,21 @@ export const MachineCodingDashboard = ({
           navigation.navigate('pincode-api-integration');
         }}
       >
-        Machine Coding Dashboard
+        Pincode Api Integration
+      </Text>
+      <Text
+        onPress={() => {
+          navigation.navigate('restaurants-list-filter-api-integration');
+        }}
+      >
+        Restaurants List Api Integration
+      </Text>
+      <Text
+        onPress={() => {
+          navigation.navigate('todo-application-add-edit-delete');
+        }}
+      >
+        Todo Application Add Edit Delete
       </Text>
     </SafeAreaView>
   );
