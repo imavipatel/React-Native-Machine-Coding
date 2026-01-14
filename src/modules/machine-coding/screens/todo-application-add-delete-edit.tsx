@@ -2,6 +2,7 @@ import { Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { TodoApplicationAddDeleteEditStyles as Styles } from '@modules/machine-coding/styles';
 import { NavigationProp, ParamListBase } from '@react-navigation/native';
+import { NavBar } from '@core-components/molecules';
 
 interface MachineCodingDashboardProps {
   navigation: NavigationProp<ParamListBase>;
@@ -11,32 +12,13 @@ interface MachineCodingDashboardProps {
 export const TodoApplicationAddDeleteEdit = ({
   navigation,
 }: MachineCodingDashboardProps) => {
-  const NavBar = () => {
-    return (
-      <View
-        style={{
-          height: '8%',
-          backgroundColor: 'green',
-          paddingHorizontal: 16,
-          justifyContent: 'center',
-        }}
-      >
-        <Text>To Do Application</Text>
-      </View>
-    );
-  };
-
   return (
-    <SafeAreaView style={Styles.flex}>
-      <NavBar />
+    <SafeAreaView edges={['top', 'bottom']} style={Styles.flex}>
+      <NavBar
+        title={'To Do Application'}
+        onPressGoBack={() => navigation.goBack()}
+      />
       <View style={Styles.container}>
-        <Text
-          onPress={() => {
-            navigation.goBack();
-          }}
-        >
-          Go Back
-        </Text>
         <Text>To do applicatioin</Text>
       </View>
     </SafeAreaView>

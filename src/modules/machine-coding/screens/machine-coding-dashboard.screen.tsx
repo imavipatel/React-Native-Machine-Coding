@@ -3,6 +3,7 @@ import { Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MachineCodingDashboardStyles as Styles } from '@modules/machine-coding/styles';
 import { NavigationProp, ParamListBase } from '@react-navigation/native';
+import { MyStatusBar } from '@core-components/atoms';
 
 interface MachineCodingDashboardProps {
   navigation: NavigationProp<ParamListBase>;
@@ -14,6 +15,7 @@ export const MachineCodingDashboard = ({
 }: MachineCodingDashboardProps) => {
   return (
     <SafeAreaView style={Styles.container}>
+      <MyStatusBar />
       <Text
         onPress={() => {
           navigation.goBack();
