@@ -2015,7 +2015,7 @@ PODS:
     - ReactNativeDependencies
     - RNWorklets (>= 0.8.0)
     - Yoga
-  - RNReanimated (4.7.2):
+  - RNReanimated (4.8.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2038,37 +2038,12 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
-    - RNReanimated/apple (= 4.7.2)
-    - RNReanimated/common (= 4.7.2)
-    - RNReanimated/view (= 4.7.2)
+    - RNReanimated/apple (= 4.8.0)
+    - RNReanimated/common (= 4.8.0)
+    - RNReanimated/view (= 4.8.0)
     - RNWorklets
     - Yoga
-  - RNReanimated/apple (4.7.2):
-    - hermes-engine
-    - RCTRequired
-    - RCTTypeSafety
-    - React-bridging
-    - React-Core
-    - React-Core-prebuilt
-    - React-cxxstableapi
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-hermes
-    - React-ImageManager
-    - React-jsi
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-renderercss
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/core
-    - ReactNativeDependencies
-    - RNWorklets
-    - Yoga
-  - RNReanimated/common (4.7.2):
+  - RNReanimated/apple (4.8.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2093,7 +2068,32 @@ PODS:
     - ReactNativeDependencies
     - RNWorklets
     - Yoga
-  - RNReanimated/view (4.7.2):
+  - RNReanimated/common (4.8.0):
+    - hermes-engine
+    - RCTRequired
+    - RCTTypeSafety
+    - React-bridging
+    - React-Core
+    - React-Core-prebuilt
+    - React-cxxstableapi
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-hermes
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/core
+    - ReactNativeDependencies
+    - RNWorklets
+    - Yoga
+  - RNReanimated/view (4.8.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2167,7 +2167,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - RNWorklets (0.13.1):
+  - RNWorklets (0.14.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2190,10 +2190,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
-    - RNWorklets/apple (= 0.13.1)
-    - RNWorklets/common (= 0.13.1)
+    - RNWorklets/apple (= 0.14.0)
+    - RNWorklets/common (= 0.14.0)
     - Yoga
-  - RNWorklets/apple (0.13.1):
+  - RNWorklets/apple (0.14.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2217,7 +2217,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - RNWorklets/common (0.13.1):
+  - RNWorklets/common (0.14.0):
     - hermes-engine
     - RCTRequired
     - RCTTypeSafety
@@ -2661,9 +2661,9 @@ SPEC CHECKSUMS:
   ReactNativeDependencies: a5164c3ebbe90d992022b5d9cbabbf770a6d7d05
   RNFastImage: 9c5907855116adff44cff40289792251de4a42e1
   RNGestureHandler: 3eb406a87932ac20e2909d36728129821fafbcdb
-  RNReanimated: 7607674d79ef6e146fd090e6ab72d59b1fee5cd0
+  RNReanimated: 24e07521c09de9e5d93c1d30cbfdaf89f8f2fc47
   RNScreens: f15a5bda1ddeff8575b8ce41d83885b67129f84b
-  RNWorklets: c05b04d721cccc1d44182425cd09efeddb6b1bbe
+  RNWorklets: 2beaf608a368e5894d578ac8c4e3c2b0c9b77e08
   SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
   SDWebImagePhotosPlugin: aaf5bc35fd49b66876de58c33eeb6e38b50920e5
   SDWebImageSVGCoder: 8e10c8f6cc879c7dfb317b284e13dd589379f01c
